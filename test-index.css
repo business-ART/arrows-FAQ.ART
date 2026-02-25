@@ -58,12 +58,11 @@ body {
   height: 7px;
   margin-left: 95px;
   cursor: pointer;
-  transform: rotate(180deg);
   transition: transform .2s ease;
 }
 
-.arrow-1:active {
-  transform: rotate(0deg);
+.rotate-arrow-1 {
+  transform: rotate(180deg);
 }
 
 .answer-1 {
@@ -73,8 +72,13 @@ body {
   font-weight: 500;
   width: 290px;
   color: #909090;
+}
+
+.hidden-answer-1 {
   display: none;
 }
+
+
 
 
 
@@ -90,6 +94,11 @@ body {
   height: 7px;
   margin-left: 234px;
   cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.rotate-arrow-2 {
+  transform: rotate(180deg);
 }
 
 .answer-2 {
@@ -99,6 +108,10 @@ body {
   font-weight: 500;
   width: 290px;
   color: #909090;
+}
+
+.hidden-answer-2 {
+  display: none;
 }
 
 
@@ -115,6 +128,11 @@ body {
   height: 7px;
   margin-left: 87px;
   cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.rotate-arrow-3 {
+  transform: rotate(180deg);
 }
 
 .answer-3 {
@@ -124,6 +142,10 @@ body {
   font-weight: 500;
   width: 290px;
   color: #909090;
+}
+
+.hidden-answer-3 {
+  display: none;
 }
 
 
@@ -143,6 +165,11 @@ body {
   height: 7px;
   margin-left: 370px;
   cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.rotate-arrow-4 {
+  transform: rotate(180deg);
 }
 
 .answer-4 {
@@ -153,4 +180,8 @@ body {
   font-weight: 500;
   width: 290px;
   color: #909090;
+}
+
+.hidden-answer-4 {
+  display: none;
 }
