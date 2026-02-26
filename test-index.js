@@ -43,9 +43,10 @@ document.querySelector('.arrow-4').addEventListener('click', function() {
 
 
 
+// document.querySelectorAll('.question-all').forEach(arrow => {
+//   arrow.addEventListener('click', () => {
 
-
-document.querySelectorAll('.arrows-all').addEventListener('click', function () {
-  document.querySelectorAll('.questions-all').addEventListener('click', function() {
-  });
-});
+//     arrow.querySelector('.arrows').classList.toggle('rotate-all')
+//     arrow.querySelector('.answers').classList.toggle('hidden-answers')
+//   });
+// });
