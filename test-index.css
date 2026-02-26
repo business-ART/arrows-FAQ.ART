@@ -43,7 +43,6 @@ body {
 .question-answer {
   margin-top: 5%;
   margin-left: 5%;
-  position: relative;
 }
 
 
@@ -77,8 +76,6 @@ body {
 .hidden-answer-1 {
   display: none;
 }
-
-
 
 
 
@@ -185,3 +182,38 @@ body {
 .hidden-answer-4 {
   display: none;
 }
+
+
+
+
+
+/* .question-all {
+  font-size: 11px;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.arrows {
+  height: 7px;
+  margin-left: 95px;
+  cursor: pointer;
+  transition: transform .2s ease;
+}
+
+.rotate-all {
+  transform: rotate(180deg);
+}
+
+.answers {
+  margin-top: 2%;
+  font-size: 8.5px;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  width: 290px;
+  color: #909090;
+}
+
+.hidden-answers {
+  display: none;
+} */
