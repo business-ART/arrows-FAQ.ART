@@ -11,7 +11,6 @@ document.querySelector('.arrow-1').addEventListener('click', function () {
 });
 
 
-
 document.querySelector('.arrow-2').addEventListener('click', function () {
   document.querySelector('.click-question-2').addEventListener('click', function () {
 
@@ -39,14 +38,3 @@ document.querySelector('.arrow-4').addEventListener('click', function() {
     document.querySelector('.answer-4').classList.toggle('hidden-answer-4')
   });
 });
-
-
-
-
-// document.querySelectorAll('.question-all').forEach(arrow => {
-//   arrow.addEventListener('click', () => {
-
-//     arrow.querySelector('.arrows').classList.toggle('rotate-all')
-//     arrow.querySelector('.answers').classList.toggle('hidden-answers')
-//   });
-// });
